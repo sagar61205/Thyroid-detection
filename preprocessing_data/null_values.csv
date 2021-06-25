@@ -1,0 +1,22 @@
+,columns,missing values count
+0,age,11
+1,sex,1662
+2,on_thyroxine,0
+3,query_on_thyroxine,0
+4,on_antithyroid_medication,0
+5,sick,0
+6,pregnant,0
+7,thyroid_surgery,0
+8,I131_treatment,0
+9,query_hypothyroid,0
+10,query_hyperthyroid,0
+11,lithium,0
+12,goitre,0
+13,tumor,0
+14,hypopituitary,0
+15,psych,0
+16,TSH,4056
+17,T3,8480
+18,TT4,2535
+19,T4U,4237
+20,FTI,4215
