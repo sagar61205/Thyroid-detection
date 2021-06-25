@@ -1,0 +1,464 @@
+2020-02-11/21:38:48		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/22:03:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/22:58:14		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/22:59:59		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/23:05:35		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/23:09:02		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/23:11:30		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-11/23:19:15		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_21012019_034556.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062111000.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062111998.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062111999.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112000.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112001.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112002.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112003.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112004.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112005.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112006.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112007.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112008.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112009.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112010.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112011.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112012.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112013.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112014.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112015.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112016.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112025.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112042.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062112109.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2020-02-12/18:13:48		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2020-02-12/18:16:36		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2020-02-12/18:16:36		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2020-02-12/18:16:36		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2020-02-12/18:16:36		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2020-02-12/18:16:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2020-02-12/18:16:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2020-02-12/18:16:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2020-02-12/18:16:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2020-02-12/18:16:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2020-02-12/18:16:37		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2020-02-12/18:16:37		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2020-02-12/19:05:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2020-02-12/19:05:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2020-02-12/19:05:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2020-02-12/19:05:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2020-02-12/19:05:56		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2020-02-12/19:05:56		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/00:22:00		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/00:22:00		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/00:22:00		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/00:22:00		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/00:22:01		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/00:22:01		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/00:22:01		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/00:28:53		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/00:28:53		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/00:28:53		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/00:28:53		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/00:28:53		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/00:28:53		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/01:04:12		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/01:04:12		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/01:04:12		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/01:04:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/01:04:12		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/01:04:12		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/01:24:42		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/01:24:42		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/01:24:42		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/01:24:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/01:24:43		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/01:24:43		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/01:24:43		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/01:25:37		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/01:25:37		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/01:25:37		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/01:25:37		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/01:25:37		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/01:25:37		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/02:28:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/02:28:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/02:28:56		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/02:28:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/02:28:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/02:28:56		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/02:28:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/02:28:57		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/02:28:57		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-05-27/04:22:57		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-05-27/04:22:57		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-05-27/04:22:57		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-05-27/04:22:57		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-05-27/04:22:58		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-05-27/04:22:58		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-05-27/04:22:58		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-05-27/04:22:58		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-05-27/04:22:58		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-09/22:56:03		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-09/22:56:04		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-09/22:56:05		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-09/22:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-09/22:56:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-09/22:56:11		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-09/22:56:12		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-09/22:56:13		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-09/22:56:13		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-09/22:56:14		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-09/22:56:14		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-09/22:56:15		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-09/22:56:15		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-09/22:56:17		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-09/22:56:17		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-09/22:56:18		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-09/22:56:19		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-09/22:56:19		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-09/22:56:20		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-09/22:56:22		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-09/22:56:22		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-09/22:56:22		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-09/22:56:22		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-09/22:56:23		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-09/22:56:23		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-09/22:56:24		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-09/22:56:24		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-09/22:56:24		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-09/23:53:40		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-09/23:53:40		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-09/23:53:40		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-09/23:53:40		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-09/23:53:41		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-09/23:53:41		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-09/23:53:41		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-10/21:00:09		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-10/21:00:09		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-10/21:00:09		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-10/21:00:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-10/21:00:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-10/21:00:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-10/21:00:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-10/21:00:10		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-10/21:00:10		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-10/21:00:10		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-11/18:56:08		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-11/18:56:08		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-11/18:56:08		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-11/18:56:08		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-11/18:56:09		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-11/18:56:09		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-11/18:56:09		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-11/20:50:39		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-11/20:50:39		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-11/20:50:39		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-11/20:50:39		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-11/20:50:39		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-11/20:50:40		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-11/22:07:05		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0102062112000.csv
+2021-06-11/22:07:05		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-11/22:07:05		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111998.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111999.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112000.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112001.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112002.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112003.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112004.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112005.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112006.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112007.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112008.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112009.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112010.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112011.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112012.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112013.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112014.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112015.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112016.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112025.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112042.csv
+2021-06-11/22:07:05		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062112109.csv
+2021-06-11/22:07:05		Invalid File Name!! File moved to Bad Raw Folder :: wafer_0211198_0102062112001.csv
+2021-06-11/22:07:05		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-11/22:48:42		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-11/22:48:42		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-11/22:48:42		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-11/22:48:42		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
+2021-06-12/00:30:05		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_02111.csv
+2021-06-12/00:30:06		Invalid File Name!! File moved to Bad Raw Folder :: hypothyroid_0211198_0102062.csv
+2021-06-12/00:30:06		Valid File name!! File moved to GoodRaw Folder :: hypothyroid_0211198_0102062111000.csv
+2021-06-12/00:30:07		Invalid File Name!! File moved to Bad Raw Folder :: _0211198_0102062112004.csv
