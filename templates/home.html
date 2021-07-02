@@ -1,0 +1,102 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- banner -->
+<section class="banner_w3lspvt" id="home">
+	<div class="csslider infinity" id="slider1">
+				<div class="banner-top1">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info text-center">
+								<h3 class="text-wh">Thyroid prediction</h3>
+								<h4 class="text-wh mx-auto my-4"><b>Understand about three different types of thyroid disorders</b></h4>
+								<br>
+								<h4 class="text-wh mx-auto my-4"><strong> Here are some questions we'll answer</strong></h4>
+								<p class="text-li mx-auto mt-2">
+									1. What are three different types of thyroid disorders? <br>
+									2. What is compensated hypothyroid? <br>
+									3. What is primary hypothyroid? <br>
+									3. What is secondary hypothyroid?<br>
+									4. What are the different tests by which these thyroid disorders are detected?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</section>
+<!-- //banner -->
+
+<!-- core values -->
+<section class="core-value py-5">
+	<div class="container py-md-4">
+		<h3 class="heading mb-sm-5 mb-4 text-center"> About </h3>
+		<div class="row core-grids">
+			<div class="col-lg-6 core-left">
+				<img src="{{ url_for('static', filename='images/hypothyroid.jpg') }}" class="img-fluid" alt="" />
+			</div>
+			<div class="col-lg-6 core-right">
+				<p class="mt-3">We have use state-of-the-art machine learning technologies to help find the type of
+					thyroid disorder out of three type of thyroid disorders such as 'compensated hypothyroid','primary hypothyroid',
+					'secondary hypothyroid' or 'negative' which means no thyroid disorder which helps Make informed decisions to understand a patient's
+					condition so that one can make an informed decision regarding the treatments available.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //core values -->
+
+<!-- Products & Services -->
+<section class="blog py-5">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center">Types of thyroid related issues</h3>
+		<div class="row blog-grids">
+			<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+				<img src="{{ url_for('static', filename='images/comp.jpg') }}" class="img-fluid" alt="" />
+					<div class="blog-info">
+						<h4>Compensated hypothyroid</h4>
+						<p class="mt-2">Compensated hypothyroidism occurs when the pituitary gland has to overwork the thyroid gland to keep the level of thyroid hormones normal in the blood.
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
+				<img src="{{ url_for('static', filename='images/primary.jpg') }}" class="img-fluid" alt="">
+				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
+					<div class="blog-info">
+						<h4>Primary hypothyroid</h4>
+						<p class="mt-2">Primary hypothyroidism is defined as low levels of blood thyroid hormone due to destruction of the thyroid gland.
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
+				<img src="{{ url_for('static', filename='images/sec.jpg') }}" class="img-fluid" alt="">
+				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
+					<div class="blog-info">
+						<h4>Secondary hypothyroid</h4>
+						<p class="mt-2">Secondary hypothyroidism is a rare disorder that describes an underactive pituitary gland causing an underactive thyroid.
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //Products & Services -->
+
+
+<!-- Creating custom grid and hover effect
+<section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/s2.jpg" alt="">
+        <div class="overlay">
+           <h2>Hover effect 1</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+</div> -->
+
+</html>
+
+{% endblock %}

@@ -1,0 +1,337 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+
+    html body {
+      background-color: rgb(206, 206, 228);
+
+      
+  }
+
+  
+</style>
+<!--Form Section-->
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+  <b>Find out the thyroid type by filling in the following parameters, No thyroid will be shown as 'negative'</b>
+</h2>
+<br />
+
+<div
+  style="
+    width: 350px;
+    height: 50rem;
+    margin: 0px auto;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 10px;
+  "
+>
+  <form method="POST" action="{{ url_for('value_prediction_result') }}">
+    <div class="form-group">
+      <label for="age" style="font-size: 17px"><b>Age</b></label>
+      <input
+        type="number"
+        class="form-control"
+        id="age"
+        name="age"
+        placeholder="Enter the value (example:31)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="sex" style="font-size: 17px"
+        ><b>Gender</b></label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="sex"
+        name="sex"
+        placeholder="Enter the value (example:F)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="on_thyroxine" style="font-size: 17px"><b>Is patient on Thyroxine treatment?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="on_thyroxine"
+        name="onthyroxine"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="query_on_thyroxine" style="font-size: 17px"><b>Has the patient raised any query on Thyroxine?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="query_on_thyroxine"
+        name="qthyroxine"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="on_antithyroid_medication" style="font-size: 17px"><b>Is the patient on antithyroid medication?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="on_antithyroid_medication"
+        name="medication"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="sick" style="font-size: 17px"><b>Is the patient sick?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="sick"
+        name="sick"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="pregnant" style="font-size: 17px"><b>Is the patient pregnant?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="pregnant"
+        name="pregnant"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="I131_treatment" style="font-size: 17px"><b>Is the patient on I131 treatment?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="I131_treatment"
+        name="I131"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="query_hypothyroid" style="font-size: 17px"><b>Has the patient raised any query on hypothyroid?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="query_hypothyroid"
+        name="hypothyroid"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="query_hyperthyroid" style="font-size: 17px"><b>Has the patient raised any query on hyperthyroid?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="query_hyperthyroid"
+        name="hyperthyroid"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="lithium" style="font-size: 17px"><b>Is the patient on Lithium treatment?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="lithium"
+        name="lithium"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="goitre" style="font-size: 17px"><b>Is the patient suffering from Goitre?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="goitre"
+        name="goitre"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="tumor" style="font-size: 17px"><b>Does the patient have any tumor?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="tumor"
+        name="tumor"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="hypopituitary" style="font-size: 17px"><b>Is the patient taking hypopituitary treatment?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="hypopituitary"
+        name="hypopituitary"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="psych" style="font-size: 17px"><b>Is the psych evaluation of the patient present?</b></label>
+      <input
+        type="text"
+        step="0.01"
+        class="form-control"
+        id="psych"
+        name="psych"
+        placeholder="Enter the value in True/False"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="TSH" style="font-size: 17px"><b>TSH value</b></label>
+      <input
+        type="number"
+        step="0.01"
+        class="form-control"
+        id="TSH"
+        name="TSH"
+        placeholder="Enter the value (example:1)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+       <div class="form-group">
+      <label for="T3" style="font-size: 17px"><b>T3 value</b></label>
+      <input
+        type="number"
+        step="0.01"
+        class="form-control"
+        id="T3"
+        name="T3"
+        placeholder="Enter the value (example:1.09)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+       <div class="form-group">
+      <label for="TT4" style="font-size: 17px"><b>TT4 value</b></label>
+      <input
+        type="number"
+        step="0.01"
+        class="form-control"
+        id="TT4"
+        name="TT4"
+        placeholder="Enter the value (example:4.7)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+       <div class="form-group">
+      <label for="T4U" style="font-size: 17px"><b>T4U value</b></label>
+      <input
+        type="number"
+        step="0.01"
+        class="form-control"
+        id="T4U"
+        name="T4U"
+        placeholder="Enter the value (example:0.6)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+       <div class="form-group">
+      <label for="FTI" style="font-size: 17px"><b>FTI value</b></label>
+      <input
+        type="number"
+        step="0.01"
+        class="form-control"
+        id="FTI"
+        name="FTI"
+        placeholder="Enter the value (example:4.7)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+<!--    <div class="form-group">-->
+<!--      <label for="State" style="font-size: 17px "><b>State</b></label>-->
+<!--      <select-->
+<!--        onchange="print_city('state', this.selectedIndex);"-->
+<!--        id="sts"-->
+<!--        name="stt"-->
+<!--        class="form-control"-->
+<!--        style="font-weight: bold; color: black;"-->
+<!--        -->
+<!--        required-->
+<!--      ></select>-->
+<!--      <br />-->
+<!--      <label for="City" style="font-size: 17px"><b>City</b></label>-->
+<!--      <select-->
+<!--        id="state"-->
+<!--        class="form-control"-->
+<!--        name="city"-->
+<!--        style="font-weight: bold; color: black;"-->
+<!--        required-->
+<!--      ></select>-->
+<!--      <script language="javascript">-->
+<!--        print_state("sts");-->
+<!--      </script>-->
+<!--    </div>-->
+
+    <div class="d-flex justify-content-center">
+      <button
+        type="submit"
+        class="btn btn-info"
+        style="color: black; font-weight: bold; width: 130px; height:50px; border-radius:12px; font-size: 21px;"
+      >
+        Predict
+      </button>
+    </div>
+  </form>
+</div>
+
+
+
+<!-- Form section -->
+
+{% endblock %}
