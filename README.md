@@ -1,5 +1,5 @@
 # Thyroid Detectiion
-A simple ML based website which predicts the thyroid type out of the 4 classes - negative, compensated hypothyroid,primary hypothyroid, secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
+A simple ML based website which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
 ## Application interface screenshot:
 ![Screenshot 2021-07-05 205949](https://user-images.githubusercontent.com/5305547/127063302-2b8e0c7f-aa8b-4d91-9e2f-4b6f36b34319.png)
@@ -44,10 +44,9 @@ Class - This is the Dependent feature. It consists of 4 classes 'negative', 'com
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for detecting Thyroid class type for a patient. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice for healthcare sector.
 
 ## MOTIVATION 💪
-Healthcare domain has a lot of issue and Thyroid is one of the glands which gets impacted by diseases and makes a large part of the polulation go for testing, medication and surgery for the treatment of Thyroid related disorders. This is a small and humble project which is using multiple datasets and merges those to create a model and predict the type of Thyroid condition the patient has namely; compensated hypothyroid,primary hypothyroid and secondary hypothyroid”.
-
+Healthcare domain has a lot of issue and Thyroid is one of the glands which gets impacted by diseases and makes a large part of the polulation go for testing, medication and surgery for the treatment of Thyroid related disorders. This is a small and humble project which is using multiple datasets and merges those to create a model and predict the type of Thyroid condition the patient has namely; "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid”.
 In this project, I present a website in which the predictions are implemented as; Batch File PRediction(which predicts and generates a new file with predicted values based in the pre-trained model. 
-For the visibility predicting application, the user can input the data and the application will predict the class of Thyroid out of the 4 classes - negative, compensated hypothyroid,primary hypothyroid, secondary hypothyroid”.
+For the visibility predicting application, the user can input the data and the application will predict the class of Thyroid out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid”.
 
 ## Built with 🛠️
 <p align="left"> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a><a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a><a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a></p>       
@@ -61,7 +60,7 @@ You can access it here:
 Note: The website may take a minute to load sometimes, as the server may be in hibernate state.
 How to use?
 Value-based-prediction ==> enter the corresponding values and it will fetch the number of calories burnt.
-File-based-prediction  ==> Click in 'default file prediction' to see the prediction on the already trained model OR Enter an absolute file path and clixk on 'Custome file predict'.
+File-based-prediction  ==> Click in 'default file prediction' to see the prediction on the already trained model OR Enter an absolute file path and clixk on 'Custom file predict'.
 
 
 
