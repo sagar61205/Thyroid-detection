@@ -163,6 +163,3 @@ def trainRouteClient():
         return Response("Error Occurred! %s" % e)
     return Response("Training successfull!!")
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
