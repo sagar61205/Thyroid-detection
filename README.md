@@ -32,14 +32,14 @@ A simple ML based website which predicts the thyroid type out of the 4 classes -
 <b>20. T3</b> - If T3 has been measured then this columm shows the value of the T3. <br/>
 <b>21. TT4_measured</b> - T4 is another one of two major hormones made by your thyroid. Shows whether T4 of the patient has been measured or not. <br/>
 <b>22. TT4</b> - If T3 has been measured then this columm shows the value of the T4. <br/>
-<b>23. T4U_measured - Shows whether T4U has been measured or not. <br/>
+<b>23. T4U_measured</b> - Shows whether T4U has been measured or not. <br/>
 <b>24. T4U - If measured, the value of the same. <br/>
-<b>25. FTI_measured - Shows Whether FTI(Free Thyroxine Index) for the patient has been measured or not. <br/>
-<b>26. FTI - If FTI has been measured then this columm shows the value of the FTI. <br/>
-<b>27. TBG_measured - Shows whether Thyroxine-Binding Globulin Deficiency has been measured or not. <br/>
-<b>28. TBG - If TBG is measured then it shows value of the same. <br/>
-<b>29. referral_source - Shows the organization/hospital from where the patient has been refferred. <br/>
-<b>30. Class - This is the Dependent feature. It consists of 4 classes 'negative', 'compensated hypothoroid', 'primary hypothoroid', 'secondary hypothoroid'. <br/>
+<b>25. FTI_measured</b> - Shows Whether FTI(Free Thyroxine Index) for the patient has been measured or not. <br/>
+<b>26. FTI</b> - If FTI has been measured then this columm shows the value of the FTI. <br/>
+<b>27. TBG_measured</b> - Shows whether Thyroxine-Binding Globulin Deficiency has been measured or not. <br/>
+<b>28. TBG</b> - If TBG is measured then it shows value of the same. <br/>
+<b>29. referral_source</b> - Shows the organization/hospital from where the patient has been refferred. <br/>
+<b>30. Class</b> - This is the Dependent feature. It consists of 4 classes 'negative', 'compensated hypothoroid', 'primary hypothoroid', 'secondary hypothoroid'. <br/>
 <br/>
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for detecting Thyroid class type for a patient. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice for healthcare sector.
 
