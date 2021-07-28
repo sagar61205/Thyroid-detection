@@ -54,13 +54,13 @@ For the visibility predicting application, the user can input the data and the a
     
 
 ## DEPLOYMENT 🚀
-Deployment is done using deploy branch
-This website is deployed at Heroku
-You can access it here: 
-Note: The website may take a minute to load sometimes, as the server may be in hibernate state.
-How to use?
-Value-based-prediction ==> enter the corresponding values and it will fetch the number of calories burnt.
-File-based-prediction  ==> Click in 'default file prediction' to see the prediction on the already trained model OR Enter an absolute file path and clixk on 'Custom file predict'.
+Deployment is done using deploy branch.<br/>
+This website is deployed at Heroku.<br/>
+You can access it here: https://thyroid-detection.herokuapp.com/ <br/>
+Note: The website may take a minute to load sometimes, as the server may be in hibernate state.<br/>
+How to use? <br/>
+Value-based-prediction ==> enter the corresponding values and it will fetch the number of calories burnt.<br/>
+File-based-prediction  ==> Click in 'default file prediction' to see the prediction on the already trained model OR Enter an absolute file path and clixk on 'Custom file predict'.'.
 
 
 
