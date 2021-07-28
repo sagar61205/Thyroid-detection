@@ -32,9 +32,9 @@ A simple ML based website which predicts the thyroid type out of the 4 classes -
 <b>20. T3</b> - If T3 has been measured then this columm shows the value of the T3. <br/>
 <b>21. TT4_measured</b> - T4 is another one of two major hormones made by your thyroid. Shows whether T4 of the patient has been measured or not. <br/>
 <b>22. TT4</b> - If T3 has been measured then this columm shows the value of the T4. <br/>
-<b>23. T4U_measured</b> - Shows whether T4U has been measured or not. <br/>
-<b>24. T4U - If measured, the value of the same. <br/>
-<b>25. FTI_measured</b> - Shows Whether FTI(Free Thyroxine Index) for the patient has been measured or not. <br/>
+<b>23. T4U_measured </b> - Shows whether T4U has been measured or not. <br/>
+<b>24. T4U </b> - If measured, the value of the same. <br/>
+<b>25. FTI_measured </b> - Shows Whether FTI(Free Thyroxine Index) for the patient has been measured or not. <br/>
 <b>26. FTI</b> - If FTI has been measured then this columm shows the value of the FTI. <br/>
 <b>27. TBG_measured</b> - Shows whether Thyroxine-Binding Globulin Deficiency has been measured or not. <br/>
 <b>28. TBG</b> - If TBG is measured then it shows value of the same. <br/>
