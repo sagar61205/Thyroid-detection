@@ -1,4 +1,4 @@
-# Thyroid Detectiion
+# Thyroid Detection
 A simple ML based website which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
 ## Application interface screenshot:
