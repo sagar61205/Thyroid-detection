@@ -41,7 +41,7 @@ A simple ML based website which predicts the thyroid type out of the 4 classes -
 <b>29. referral_source</b> - Shows the organization/hospital from where the patient has been refferred. <br/>
 <b>30. Class</b> - This is the Dependent feature. It consists of 4 classes 'negative', 'compensated hypothoroid', 'primary hypothoroid', 'secondary hypothoroid'. <br/>
 <br/>
-This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for detecting Thyroid class type for a patient. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice for healthcare sector.
+This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, please don't use it for detecting Thyroid class type for a patient. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice for healthcare sector.
 
 ## MOTIVATION 💪
 Healthcare domain has a lot of issue and Thyroid is one of the glands which gets impacted by diseases and makes a large part of the polulation go for testing, medication and surgery for the treatment of Thyroid related disorders. This is a small and humble project which is using multiple datasets and merges those to create a model and predict the type of Thyroid condition the patient has namely; "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid”.
@@ -55,7 +55,8 @@ For the visibility predicting application, the user can input the data and the a
 
 ## DEPLOYMENT 🚀
 Deployment is done using deploy branch.<br/>
-This website is deployed at Heroku.<br/>
+This website is deployed at GCP.<br/>
+Readme file: https://sagar61205.github.io/Thyroid-detection/
 You can access it here: https://thyroid-detection.herokuapp.com/ <br/>
 Note: The website may take a minute to load sometimes, as the server may be in hibernate state.<br/>
 How to use? <br/>
