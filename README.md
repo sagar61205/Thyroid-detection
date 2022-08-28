@@ -56,7 +56,7 @@ For the visibility predicting application, the user can input the data and the a
 ## DEPLOYMENT 🚀
 Deployment is done using deploy branch.<br/>
 This website is deployed at GCP.<br/>
-Readme file: https://sagar61205.github.io/Thyroid-detection/ <br/>
+Github page: https://sagar61205.github.io/Thyroid-detection/ <br/>
 You can access it here: https://thyroid-detection-360822.el.r.appspot.com/ <br/>
 Note: The website may take a minute to load sometimes, as the server may be in hibernate state.<br/>
 How to use? <br/>
