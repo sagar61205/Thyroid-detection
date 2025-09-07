@@ -7,9 +7,9 @@
 <h4>📊 The Business Problem:</h4>
 
 Medical professionals faced significant challenges in accurately diagnosing thyroid disorders:
-<ul><li>Manual diagnosis based on clinical symptoms and standard blood tests was time-consuming and prone to human error and subjectivity.</li><br>
-<li>Misdiagnosis or delayed diagnosis could lead to incorrect treatment plans, affecting patient health outcomes.</li><br>
-<li>The need for a decision-support system that could help doctors validate their initial assessments and reduce diagnostic errors.</li><br>    
+<ul><li>Manual diagnosis based on clinical symptoms and standard blood tests was time-consuming and prone to human error and subjectivity.</li>
+<li>Misdiagnosis or delayed diagnosis could lead to incorrect treatment plans, affecting patient health outcomes.</li>
+<li>The need for a decision-support system that could help doctors validate their initial assessments and reduce diagnostic errors.</li>  
 </ul>
 
 <h5>Thyroid types:</h5>
@@ -20,21 +20,21 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 <br>
 
 <h5>Key Objectives:</h5>
-<ul><li>Analyze clinical patient data to identify key patterns indicative of thyroid conditions.</li><br>
+<ul><li>Analyze clinical patient data to identify key patterns indicative of thyroid conditions.</li>
 
-<li>Build a highly accurate classification model that outperforms manual diagnosis methods.</li><br>
+<li>Build a highly accurate classification model that outperforms manual diagnosis methods.</li>
 
-<li>Provide explainable AI insights to help doctors understand the model's predictions.</li><br>
+<li>Provide explainable AI insights to help doctors understand the model's predictions.</li>
 
 <li>Deliver an accessible tool that integrates seamlessly into clinical workflow considerations.</li>
 </ul>
 
 <h4>Business Impact:</h4>
 <ul>
-<li>40% Improvement in diagnostic accuracy compared to manual clinical assessment methods.</li><br>
-<li>10 % faster diagnosis reducing analysis time from hours to seconds.</li><br>
-<li>Enhanced doctor Confidence through AI-powered decision support.</li><br>
-<li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li><br>
+<li>40% Improvement in diagnostic accuracy compared to manual clinical assessment methods.</li>
+<li>10 % faster diagnosis reducing analysis time from hours to seconds.</li>
+<li>Enhanced doctor Confidence through AI-powered decision support.</li>
+<li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li>
 </ul>
 
 
@@ -47,7 +47,7 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 <h5>Feature Importance:</h5>
 <ul>
 <li>Identified the most critical clinical markers for accurate thyroid disorder classification.</li>   
-<li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li><br>
+<li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li>
 </ul>
 
 <h5>Model Performance:</h5>
@@ -58,15 +58,18 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 
 <h4>🛠️ Technical Stack:</h4>
 
-<ul><li>Data Processing & Analysis:Python, Pandas, NumPy, Scikit-learn, Statsmodels</li><br>
-<li>Machine Learning: K-Nearest Neighbor(KNN), Random Forest, XGBoost</li><br>
-<li>Data Visualization: Matplotlib, Seaborn, Plotly</li><br>
-<li>Deployment: Flask, Docker, Cloud-AWS</li><br>
-<li>Tools: Git, Jupyter Notebook, VS Code</li><br>
+<ul><li>Data Processing & Analysis:Python, Pandas, NumPy, Scikit-learn, Statsmodels</li>
+<li>Machine Learning: K-Nearest Neighbor(KNN), Random Forest, XGBoost</li>
+<li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
+<li>Deployment: Flask, Docker, Cloud-AWS</li>
+<li>Tools: Git, Jupyter Notebook, VS Code</li>
 </ul>
 
-<h5>Prediction:</h5>
+<h5>Prediction app:</h5>
 <img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/b2026037-c8b1-4631-acca-0f16129f8e01" />
+
+<h5>Prediction:</h5>
+<img width="382" height="354" alt="Image" src="https://github.com/user-attachments/assets/aea75d9c-64ba-4adb-8e82-8ecfa167411b" />
 
 <h4>⚠️Disclaimer</h4>
 
