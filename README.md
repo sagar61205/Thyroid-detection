@@ -39,7 +39,7 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/c0d298b0-2bf5-48ac-9a78-1181207e3e11" />
+<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/30cb4b1f-ae84-4f10-951a-e32cd259c7b2" />
 
 
 <h4>📈 Key Insights Delivered:</h4>
