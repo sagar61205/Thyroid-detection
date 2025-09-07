@@ -65,11 +65,11 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 <li>Tools: Git, Jupyter Notebook, VS Code</li>
 </ul>
 
-<h5>Prediction app:</h5>
+<h5>Prediction app(Screenshot):</h5>
 <img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/b2026037-c8b1-4631-acca-0f16129f8e01" />
 
-<h5>Prediction:</h5>
-<img width="382" height="354" alt="Image" src="https://github.com/user-attachments/assets/aea75d9c-64ba-4adb-8e82-8ecfa167411b" />
+<h5>Prediction output:</h5>
+<img width="306" height="189" alt="Image" src="https://github.com/user-attachments/assets/96c1b292-85ff-4d9c-a959-ca23d27a5c62" />
 
 <h4>⚠️Disclaimer</h4>
 
