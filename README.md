@@ -1,6 +1,6 @@
 <h1 align = "center"> AI-Powered Thyroid Disorder Classification</h1>
 
-<h3 align='center'>Improved diagnostic accuracy by 40% by developing a clinical AI tool that assists doctors in making 10% faster, more reliable treatment decisions</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Interactive App</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
+<h3 align='center'>Improved diagnostic accuracy by 40% by developing a clinical AI tool that assists doctors in making 10% faster, more reliable treatment decisions</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
 
 ![Screenshot 2021-07-05 205949](https://user-images.githubusercontent.com/5305547/127063302-2b8e0c7f-aa8b-4d91-9e2f-4b6f36b34319.png)
 
