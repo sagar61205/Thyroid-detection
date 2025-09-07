@@ -66,7 +66,7 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 </ul>
 
 <h5>Prediction app(Screenshot):</h5>
-<img width="963" height="303" alt="Image" src="https://github.com/user-attachments/assets/c6e68e13-46c8-4dad-b08d-74b5af86326d" />
+<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/c6e68e13-46c8-4dad-b08d-74b5af86326d" />
 
 <h5>Prediction output:</h5>
 <img width="306" height="189" alt="Image" src="https://github.com/user-attachments/assets/152d7b1b-9107-40a0-9c37-261b249f0191" />
