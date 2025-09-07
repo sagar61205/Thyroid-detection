@@ -12,6 +12,9 @@ Medical professionals faced significant challenges in accurately diagnosing thyr
 <li>The need for a decision-support system that could help doctors validate their initial assessments and reduce diagnostic errors.</li><br>    
 </ul>
 
+<h5>Thyroid types:</h5>
+<img width="620" height="320" alt="Image" src="https://github.com/user-attachments/assets/f4affcbd-8798-4b8f-9606-efa476950cfa" />
+
 <h4>📊 My role and the solution:</h4>
 As the Data Scientist on this project, I was tasked with building an AI-based classification tool to enhance diagnostic accuracy. I developed an end-to-end machine learning system that analyzes patient diagnostic metrics to predict potential thyroid disease, serving as a reliable second opinion for clinic doctors.
 <br>
@@ -26,7 +29,6 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 <li>Deliver an accessible tool that integrates seamlessly into clinical workflow considerations.</li>
 </ul>
 
-
 <h4>Business Impact:</h4>
 <ul>
 <li>40% Improvement in diagnostic accuracy compared to manual clinical assessment methods.</li><br>
@@ -35,27 +37,23 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 <li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li><br>
 </ul>
 
-<h5>Types of Thyroid disorders:</h5>
-![Screenshot 2021-07-05 210050](https://user-images.githubusercontent.com/5305547/127064589-46b6bd3d-5af0-4168-afa1-f349cbc95297.png)
-
 
 <h4>🏗️ Technical Architecture:</h4>
 <img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/6d9a87d4-74ca-4844-8ffb-0afd45eaa02e" />
-![Patient Data ML Flowchart](/assets/images/professional_flow_400x600.png){: .center-image }
+
 
 <h4>📈 Key Insights Delivered:</h4>
                            
 <h5>Feature Importance:</h5>
 <ul>
-<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/bba73476-695c-4385-a6a2-b7250977e8c9" />
-<li>Discovered non-linear relationships between biomarkers that human analysis might overlook</li><br>
-
+<li>Identified the most critical clinical markers for accurate thyroid disorder classification.</li>   
+<li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li><br>
+</ul>
 
 <h5>Model Performance:</h5>
-
-<li>Achieved 90% accuracy and 0.9 ROC_AUC score using Random Forest. KNN and XGBoost with selected features</li><br>
-<li>Maintained robust performance across different patient demographics and subtypes</li><br>
-
+<ul>
+<li>Achieved 90% accuracy and 0.9 ROC_AUC score using Random Forest. KNN and XGBoost with selected features.</li><br>
+<li>Maintained robust performance across different patient demographics and subtypes.</li><br>
 </ul>
 
 <h4>🛠️ Technical Stack:</h4>
@@ -68,8 +66,15 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 </ul>
 
 <h5>Prediction:</h5>
-![Screenshot 2021-07-05 210119](https://user-images.githubusercontent.com/5305547/127064657-ed43e5a7-528b-4ab8-abf7-081d39e2eb76.png)
+<img width="620" height="320" alt="Image" src="https://github.com/user-attachments/assets/b2026037-c8b1-4631-acca-0f16129f8e01" />
 
 <h4>⚠️Disclaimer</h4>
 
 This project serves as a Proof of Concept (POC). This project demonstrates how machine learning classification is applied in medical practice and the potential impact it can generate.
+
+
+## Application screenshot for the important information section:
+![Screenshot 2021-07-05 210134](https://user-images.githubusercontent.com/5305547/127064694-5edd41bb-679f-4f42-b350-b28feeae413a.png)
+
+## Prediction(Batch file):
+![thyroid prediction](https://user-images.githubusercontent.com/5305547/127065188-4317a3cc-8f7d-4857-8f92-ada26e97d3cd.png)
