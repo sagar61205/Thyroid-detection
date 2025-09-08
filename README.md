@@ -39,8 +39,7 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/30cb4b1f-ae84-4f10-951a-e32cd259c7b2" />
-
+<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/ffe27bfc-7283-4a33-aff4-8ab6e03fef98" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
@@ -52,7 +51,7 @@ As the Data Scientist on this project, I was tasked with building an AI-based cl
 
 <h5>Model Performance:</h5>
 <ul>
-<li>Achieved 90% accuracy and 0.9 ROC_AUC score using Random Forest. KNN and XGBoost with selected features.</li><br>
+<li>Achieved 90% accuracy alongwith ROC_AUC score of 0.9 using Random Forest, KNN and XGBoost with selected features.</li><br>
 <li>Maintained robust performance across different patient demographics and subtypes.</li><br>
 </ul>
 
