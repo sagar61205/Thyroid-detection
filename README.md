@@ -1,75 +1,133 @@
-<h1 align = "center"> AI-Powered Thyroid Disorder Classification</h1>
+<style>
+  /* General responsive typography */
+  h1, h3, h4, h5, h6, p, li {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 15px;
+    line-height: 1.6;
+  }
 
-<h3 align='center'>Improved diagnostic accuracy by 40% by developing a clinical AI tool that assists doctors in making 10% faster, more reliable treatment decisions</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
+  /* Responsive images */
+  img.responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    background: #fff;
+    padding: 5px;
+  }
 
-![Screenshot 2021-07-05 205949](https://user-images.githubusercontent.com/5305547/127063302-2b8e0c7f-aa8b-4d91-9e2f-4b6f36b34319.png)
+  /* Lists container */
+  ul {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  /* Centered links */
+  p.center-links {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  /* Center align h1, h3 */
+  h1, h3 {
+    text-align: center;
+  }
+
+  /* Responsive font sizing */
+  @media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    h3 { font-size: 1.2rem; }
+    h4 { font-size: 1.1rem; }
+  }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 1.5rem; }
+    h3 { font-size: 1rem; }
+    h4, h5 { font-size: 0.95rem; }
+  }
+</style>
+
+<h1>AI-Powered Thyroid Disorder Classification</h1>
+
+<h3>Improved diagnostic accuracy by 40% by developing a clinical AI tool that assists doctors in making 10% faster, more reliable treatment decisions</h3>
+
+<p class="center-links"> 
+  <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • 
+  <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> 
+</p>
+
+<img src="https://user-images.githubusercontent.com/5305547/127063302-2b8e0c7f-aa8b-4d91-9e2f-4b6f36b34319.png" 
+     alt="Thyroid System Overview" class="responsive-img" />
 
 <h4>📊 The Business Problem:</h4>
-
-Medical professionals faced significant challenges in accurately diagnosing thyroid disorders:
-<ul><li>Manual diagnosis based on clinical symptoms and standard blood tests was time-consuming and prone to human error and subjectivity.</li>
-<li>Misdiagnosis or delayed diagnosis could lead to incorrect treatment plans, affecting patient health outcomes.</li>
-<li>The need for a decision-support system that could help doctors validate their initial assessments and reduce diagnostic errors.</li>  
+<p>Medical professionals faced significant challenges in accurately diagnosing thyroid disorders:</p>
+<ul>
+  <li>Manual diagnosis based on clinical symptoms and standard blood tests was time-consuming and prone to human error and subjectivity.</li>
+  <li>Misdiagnosis or delayed diagnosis could lead to incorrect treatment plans, affecting patient health outcomes.</li>
+  <li>The need for a decision-support system that could help doctors validate their initial assessments and reduce diagnostic errors.</li>  
 </ul>
 
 <h5>Thyroid types:</h5>
-<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/f4affcbd-8798-4b8f-9606-efa476950cfa" />
+<img src="https://github.com/user-attachments/assets/f4affcbd-8798-4b8f-9606-efa476950cfa" 
+     alt="Thyroid Types" class="responsive-img" />
 
 <h4>📊 My role and the solution:</h4>
-As the Data Scientist on this project, I was tasked with building an AI-based classification tool to enhance diagnostic accuracy. I developed an end-to-end machine learning system that analyzes patient diagnostic metrics to predict potential thyroid disease, serving as a reliable second opinion for clinic doctors.
-<br>
+<p>As the Data Scientist on this project, I was tasked with building an AI-based classification tool to enhance diagnostic accuracy. I developed an end-to-end machine learning system that analyzes patient diagnostic metrics to predict potential thyroid disease, serving as a reliable second opinion for clinic doctors.</p>
 
 <h5>Key Objectives:</h5>
-<ul><li>Analyze clinical patient data to identify key patterns indicative of thyroid conditions.</li>
-
-<li>Build a highly accurate classification model that outperforms manual diagnosis methods.</li>
-
-<li>Provide explainable AI insights to help doctors understand the model's predictions.</li>
-
-<li>Deliver an accessible tool that integrates seamlessly into clinical workflow considerations.</li>
+<ul>
+  <li>Analyze clinical patient data to identify key patterns indicative of thyroid conditions.</li>
+  <li>Build a highly accurate classification model that outperforms manual diagnosis methods.</li>
+  <li>Provide explainable AI insights to help doctors understand the model's predictions.</li>
+  <li>Deliver an accessible tool that integrates seamlessly into clinical workflow considerations.</li>
 </ul>
 
 <h4>Business Impact:</h4>
 <ul>
-<li>40% Improvement in diagnostic accuracy compared to manual clinical assessment methods.</li>
-<li>10 % faster diagnosis reducing analysis time from hours to seconds.</li>
-<li>Enhanced doctor Confidence through AI-powered decision support.</li>
-<li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li>
+  <li>40% Improvement in diagnostic accuracy compared to manual clinical assessment methods.</li>
+  <li>10% faster diagnosis reducing analysis time from hours to seconds.</li>
+  <li>Enhanced doctor Confidence through AI-powered decision support.</li>
+  <li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li>
 </ul>
 
-
 <h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/ffe27bfc-7283-4a33-aff4-8ab6e03fef98" />
+<img src="https://github.com/user-attachments/assets/ffe27bfc-7283-4a33-aff4-8ab6e03fef98" 
+     alt="Architecture Diagram" class="responsive-img" />
 
 <h4>📈 Key Insights Delivered:</h4>
-                           
+
 <h5>Feature Importance:</h5>
 <ul>
-<li>Identified the most critical clinical markers for accurate thyroid disorder classification.</li>   
-<li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li>
+  <li>Identified the most critical clinical markers for accurate thyroid disorder classification.</li>   
+  <li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li>
 </ul>
 
 <h5>Model Performance:</h5>
 <ul>
-<li>Achieved 90% accuracy alongwith ROC_AUC score of 0.9 using Random Forest, KNN and XGBoost with selected features.</li><br>
-<li>Maintained robust performance across different patient demographics and subtypes.</li><br>
+  <li>Achieved 90% accuracy along with ROC_AUC score of 0.9 using Random Forest, KNN and XGBoost with selected features.</li>
+  <li>Maintained robust performance across different patient demographics and subtypes.</li>
 </ul>
 
 <h4>🛠️ Technical Stack:</h4>
-
-<ul><li>Data Processing & Analysis:Python, Pandas, NumPy, Scikit-learn, Statsmodels</li>
-<li>Machine Learning: K-Nearest Neighbor(KNN), Random Forest, XGBoost</li>
-<li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
-<li>Deployment: Flask, Docker, Cloud-AWS</li>
-<li>Tools: Git, Jupyter Notebook, VS Code</li>
+<ul>
+  <li>Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels</li>
+  <li>Machine Learning: K-Nearest Neighbor (KNN), Random Forest, XGBoost</li>
+  <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
+  <li>Deployment: Flask, Docker, Cloud-AWS</li>
+  <li>Tools: Git, Jupyter Notebook, VS Code</li>
 </ul>
 
-<h5>Prediction app(Screenshot):</h5>
-<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/c6e68e13-46c8-4dad-b08d-74b5af86326d" />
+<h5>Prediction app (Screenshot):</h5>
+<img src="https://github.com/user-attachments/assets/c6e68e13-46c8-4dad-b08d-74b5af86326d" 
+     alt="Prediction App Screenshot" class="responsive-img" />
 
 <h5>Prediction output:</h5>
-<img width="306" height="189" alt="Image" src="https://github.com/user-attachments/assets/152d7b1b-9107-40a0-9c37-261b249f0191" />
+<img src="https://github.com/user-attachments/assets/152d7b1b-9107-40a0-9c37-261b249f0191" 
+     alt="Prediction Output" class="responsive-img" />
 
-<h4>⚠️Disclaimer</h4>
-
-This project serves as a Proof of Concept (POC). This project demonstrates how machine learning classification is applied in medical practice and the potential impact it can generate.
+<h4>⚠️ Disclaimer</h4>
+<p>This project serves as a Proof of Concept (POC). This project demonstrates how machine learning classification is applied in medical practice and the potential impact it can generate.</p>
