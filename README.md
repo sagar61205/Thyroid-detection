@@ -51,7 +51,7 @@
   }
 </style>
 
-<h1>AI-Powered Thyroid Disorder Classification</h1>
+<h1>AI-Powered Thyroid Clinical Decision System</h1>
 
 <h3>Improved diagnostic accuracy by 40% by developing a clinical AI tool that assists doctors in making 10% faster, more reliable treatment decisions</h3>
 
