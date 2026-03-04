@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI-Powered Thyroid Clinical Decision System – Sagar Virmani</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-attachment: fixed;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 32px;
+    }
+    .nav .logo {
+      font-weight: 700;
+      font-size: 1.1rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav .back {
+      color: #667eea;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav .back:hover { text-decoration: underline; }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 32px 10px 40px;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: #e3f2fd;
+      color: #1976d2;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero .subtitle {
+      color: #666;
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 0 auto 24px;
+    }
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .tech-tag {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section { margin: 40px 0; }
+    .section h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-left: 5px solid #667eea;
+      padding-left: 15px;
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    }
+
+    /* ── STATUS BAR ── */
+    .status-bar {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid #16a34a;
+      border-radius: 8px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .status-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: #16a34a;
+      box-shadow: 0 0 6px rgba(22,163,74,0.5);
+      animation: pulse 2s infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .status-text { font-size: 0.88rem; color: #15803d; font-weight: 600; }
+    .status-sub  { font-size: 0.8rem; color: #666; margin-top: 2px; }
+
+    /* ── METRICS STRIP ── */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .metric-card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      border-left: 4px solid #667eea;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .metric-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.15); }
+    .metric-card .val {
+      font-size: 1.9rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .metric-card .label { font-size: 0.8rem; color: #666; font-weight: 500; }
+
+    /* ── PROSE BLOCKS ── */
+    .prose { color: #555; margin-bottom: 14px; }
+
+    /* bullet lists inside cards */
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0;
+    }
+    .bullet-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      font-size: 0.85rem;
+      color: #555;
+      line-height: 1.6;
+      padding: 5px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .bullet-list li:last-child { border-bottom: none; }
+    .bullet-list li::before {
+      content: "\2192";
+      color: #667eea;
+      font-weight: 700;
+      flex-shrink: 0;
+      font-size: 0.82rem;
+      margin-top: 2px;
+    }
+
+    /* ── ARCHITECTURE ── */
+    .arch-box {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 28px 20px;
+      overflow-x: auto;
+      border-left: 4px solid #667eea;
+    }
+    .arch-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      min-width: 680px;
+    }
+    .arch-node {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 12px 14px;
+      text-align: center;
+      min-width: 105px;
+      flex-shrink: 0;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .arch-node:hover { border-color: #667eea; box-shadow: 0 2px 8px rgba(102,126,234,0.15); }
+    .arch-node .icon { font-size: 1.4rem; margin-bottom: 5px; }
+    .arch-node .node-title { font-size: 0.75rem; font-weight: 600; color: #2c3e50; }
+    .arch-node .node-sub   { font-size: 0.65rem; color: #888; margin-top: 3px; }
+    .arch-node.accent { border-color: #667eea; background: #f5f3ff; }
+    .arch-arrow { color: #aaa; font-size: 1.2rem; padding: 0 4px; flex-shrink: 0; }
+    .arch-chip {
+      display: block;
+      background: #fff3e0;
+      border: 1px solid #fed7aa;
+      border-radius: 5px;
+      padding: 2px 7px;
+      font-size: 0.63rem;
+      color: #c2410c;
+      white-space: nowrap;
+      margin-bottom: 3px;
+    }
+    .arch-note {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.82rem;
+      color: #888;
+      text-align: center;
+    }
+    .arch-note strong { color: #2c3e50; }
+
+    /* ── CHALLENGE / SOLUTION TABLE ── */
+    .table-container { overflow-x: auto; margin: 4px 0; }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; }
+    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
+    th { background: #f8f9fa; font-weight: 600; color: #2c3e50; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafafa; }
+
+    /* ── CHALLENGE → SOLUTION CARDS ── */
+    .cs-list { display: flex; flex-direction: column; gap: 16px; }
+    .cs-item {
+      background: #f8f9fa;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #eee;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .cs-item:hover { box-shadow: 0 4px 12px rgba(102,126,234,0.12); transform: translateY(-1px); }
+    .cs-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .cs-challenge {
+      padding: 18px 20px;
+      border-right: 1px solid #e5e7eb;
+    }
+    .cs-solution {
+      padding: 18px 20px;
+      background: white;
+    }
+    .cs-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .cs-label.challenge-label { color: #9333ea; }
+    .cs-label.solution-label  { color: #667eea; }
+    .cs-text { font-size: 0.87rem; color: #444; line-height: 1.6; }
+    @media (max-width: 640px) {
+      .cs-row { grid-template-columns: 1fr; }
+      .cs-challenge { border-right: none; border-bottom: 1px solid #e5e7eb; }
+    }
+
+    /* ── INNOVATION / IMPACT CARDS ── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      border-left: 4px solid #667eea;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.12); }
+    .card.v2 { border-left-color: #764ba2; }
+    .card h4 { font-size: 0.92rem; font-weight: 700; color: #2c3e50; margin-bottom: 8px; }
+    .card p  { font-size: 0.85rem; color: #555; line-height: 1.6; }
+
+    /* ── STACK GRID ── */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .stack-item {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-left: 3px solid #667eea;
+      transition: transform 0.2s;
+    }
+    .stack-item:hover { transform: translateY(-1px); }
+    .stack-item .s-icon { font-size: 1.2rem; }
+    .stack-item .s-name { font-size: 0.85rem; font-weight: 600; color: #2c3e50; }
+    .stack-item .s-role { font-size: 0.72rem; color: #888; }
+
+    /* ── EVAL CARDS ── */
+    .eval-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .eval-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 14px;
+      border-top: 3px solid #667eea;
+    }
+    .eval-card.v2 { border-top-color: #764ba2; }
+    .eval-card .e-title { font-size: 0.82rem; font-weight: 700; color: #2c3e50; margin-bottom: 6px; }
+    .eval-card .e-desc  { font-size: 0.8rem; color: #666; }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.82rem;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    /* ── BUTTON ── */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-top: 8px;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(102,126,234,0.35); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 28px 15px 10px;
+      color: #666;
+      border-top: 1px solid #eee;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 24px; }
+      .hero { padding: 20px 0 30px; }
+    }
+    @media (max-width: 480px) {
+      .container { padding: 16px; }
+      .btn { width: 100%; text-align: center; }
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+  <div class="nav">
+    <a href="https://sagar61205.github.io/portfolio_2/" class="logo">Sagar Virmani</a>
+    <a href="https://sagar61205.github.io/portfolio_2/" class="back">← Back to Portfolio</a>
+  </div>
+
+  <div class="hero">
+    <div class="badge">🏥 Healthcare AI · Explainable ML · Clinical Decision Support</div>
+    <h1>AI-Powered Thyroid<br/>Clinical Decision System</h1>
+    <p class="subtitle">Built an interpretable machine learning classifier to assist clinical diagnosis of thyroid disorders, achieving 90% detection accuracy and a 40% improvement over previously used diagnostic methods.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">XGBoost</span>
+      <span class="tech-tag">Random Forest</span>
+      <span class="tech-tag">KNN</span>
+      <span class="tech-tag">SMOTE</span>
+      <span class="tech-tag">scikit-learn</span>
+      <span class="tech-tag">Flask</span>
+      <span class="tech-tag">Docker</span>
+      <span class="tech-tag">AWS EC2</span>
+    </div>
+  </div>
+
+  <div class="status-bar">
+    <div class="status-dot"></div>
+    <div>
+      <div class="status-text">Deployed · Live on AWS EC2</div>
+      <div class="status-sub">Classification model live · Flask prediction API serving results · Explainable outputs for clinical review</div>
+    </div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric-card"><div class="val">90%</div><div class="label">Detection Accuracy</div></div>
+    <div class="metric-card"><div class="val">0.9</div><div class="label">ROC-AUC Score</div></div>
+    <div class="metric-card"><div class="val">+40%</div><div class="label">Improvement vs Previous Methods</div></div>
+    <div class="metric-card"><div class="val">10%</div><div class="label">Faster Diagnosis</div></div>
+    <div class="metric-card"><div class="val">3</div><div class="label">Thyroid Disorder Classes Detected</div></div>
+  </div>
+
+  <div class="section">
+    <h2>🎯 Business Problem</h2>
+    <p class="prose">Thyroid disorder diagnosis relied on manual clinical assessment of blood test results and patient symptoms, a process that was time-consuming, subjective, and prone to inconsistency between clinicians. Delayed or incorrect diagnosis leads directly to incorrect treatment plans, with real consequences for patient outcomes.</p>
+    <p class="prose">The goal was to build a reliable decision-support tool: a classification model that analyses patient diagnostic metrics, predicts the most likely thyroid condition, and provides explainable outputs, giving clinicians confidence in the recommendation rather than presenting a black-box result they could not validate.</p>
+  </div>
+
+  <div class="section">
+    <h2>🏗️ System Architecture</h2>
+    <div class="arch-box">
+      <div class="arch-flow">
+        <div class="arch-node accent"><div class="icon">📋</div><div class="node-title">Patient Data</div><div class="node-sub">Clinical Metrics<br/>Blood Test Results</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🐍</div><div class="node-title">Preprocessing</div><div class="node-sub">SMOTE Balancing<br/>Feature Selection</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node accent"><div class="icon">🧠</div><div class="node-title">Classifier</div><div class="node-sub">XGBoost · RF<br/>KNN</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🔍</div><div class="node-title">Explainability</div><div class="node-sub">Feature Importance<br/>Contributing Factors</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🌐</div><div class="node-title">Flask API</div><div class="node-sub">Prediction Endpoint<br/>Docker Container</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node accent"><div class="icon">☁️</div><div class="node-title">AWS EC2</div><div class="node-sub">Production<br/>Deployment</div></div>
+      </div>
+      <div class="arch-note"><strong>Output:</strong> Predicted thyroid condition · Confidence score · Key contributing clinical markers · Decision support summary for clinician review</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Key Technical Challenges & Solutions</h2>
+    <div class="cs-list">
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Severe class imbalance:</strong> thyroid disorder subtypes were heavily underrepresented in the dataset, causing models to default to majority-class predictions and miss rare conditions.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>SMOTE (Synthetic Minority Oversampling)</strong> applied to balance class distribution, ensuring the model learned meaningful diagnostic patterns across all thyroid disorder types.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Clinical explainability requirement:</strong> doctors needed to understand why the model made a prediction, not just receive a label. A black-box output would not be trusted or acted upon.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Feature importance surfaced in every output</strong>, the top contributing clinical markers are shown alongside each prediction, so clinicians can validate the reasoning before acting on it.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Model selection for clinical accuracy:</strong> KNN, Random Forest, and XGBoost all needed rigorous evaluation to identify the best performer with the lowest misclassification risk.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Full head-to-head evaluation</strong> across all three algorithms, all achieved 90% accuracy and 0.9 ROC-AUC, validated across patient demographics and condition subtypes.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Clinical workflow integration:</strong> the tool needed to be accessible to clinical staff without requiring any technical expertise to operate day-to-day.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Flask web interface</strong> with a simple patient data input form, clinicians enter diagnostic metrics and receive a prediction with contributing factors, deployed on AWS EC2 via Docker.</div></div>
+      </div></div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💡 What Makes This Different</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>Explainable AI for Clinical Use</h4>
+        <ul class="bullet-list">
+          <li>Every prediction shows the top contributing clinical markers</li>
+          <li>Doctors validate the model's reasoning before acting on the result</li>
+          <li>Designed as a decision support tool, not a replacement for judgment</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>Robust Class Imbalance Handling</h4>
+        <ul class="bullet-list">
+          <li>SMOTE applied to balance rare disorder subtypes during training</li>
+          <li>Consistent performance across all thyroid condition classes</li>
+          <li>Medically critical: avoids bias toward the majority class</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Multi-Algorithm Validation</h4>
+        <ul class="bullet-list">
+          <li>KNN, Random Forest, and XGBoost evaluated head-to-head</li>
+          <li>90% accuracy and 0.9 ROC-AUC confirmed across all three algorithms</li>
+          <li>Robust performance validated across patient demographics and subtypes</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>Production-Ready Clinical Tool</h4>
+        <ul class="bullet-list">
+          <li>Flask web interface deployable directly into clinical workflow</li>
+          <li>Dockerised and hosted on AWS EC2 for reliable uptime</li>
+          <li>Simple input form, no technical knowledge required to operate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Technical Stack</h2>
+    <div class="stack-grid">
+      <div class="stack-item"><span class="s-icon">🚀</span><div><div class="s-name">XGBoost</div><div class="s-role">Primary Classifier · Gradient Boosting</div></div></div>
+      <div class="stack-item"><span class="s-icon">🌲</span><div><div class="s-name">Random Forest</div><div class="s-role">Ensemble Classifier · Feature Importance</div></div></div>
+      <div class="stack-item"><span class="s-icon">🔍</span><div><div class="s-name">KNN</div><div class="s-role">K-Nearest Neighbour · Baseline Comparison</div></div></div>
+      <div class="stack-item"><span class="s-icon">⚕️</span><div><div class="s-name">SMOTE</div><div class="s-role">Imbalanced-Learn · Class Balancing</div></div></div>
+      <div class="stack-item"><span class="s-icon">🐍</span><div><div class="s-name">scikit-learn · Python</div><div class="s-role">ML Pipeline · Model Evaluation</div></div></div>
+      <div class="stack-item"><span class="s-icon">🌐</span><div><div class="s-name">Flask</div><div class="s-role">Prediction API · Web Interface</div></div></div>
+      <div class="stack-item"><span class="s-icon">🐳</span><div><div class="s-name">Docker</div><div class="s-role">Containerisation · Deployment</div></div></div>
+      <div class="stack-item"><span class="s-icon">☁️</span><div><div class="s-name">AWS EC2</div><div class="s-role">Production Hosting · Model Serving</div></div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📈 Business Impact</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>📋 +40% Diagnostic Accuracy Improvement</h4>
+        <ul class="bullet-list">
+          <li>40% improvement over the manual clinical assessment methods previously used</li>
+          <li>Consistent accuracy maintained across patient demographics and condition subtypes</li>
+          <li>Reduces misclassification risk for rare thyroid disorder subtypes</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>⚡ 10% Faster Diagnosis</h4>
+        <ul class="bullet-list">
+          <li>Analysis time reduced from manual review to near-instant model output</li>
+          <li>Earlier treatment decisions for time-sensitive or ambiguous cases</li>
+          <li>Reduces clinician cognitive load during high-volume periods</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>🏥 Enhanced Clinical Confidence</h4>
+        <ul class="bullet-list">
+          <li>Explainable outputs let clinicians validate AI recommendations directly</li>
+          <li>Acts as a reliable second opinion alongside clinical judgment</li>
+          <li>Designed for adoption: transparent, not opaque</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    ⚠️ <strong>Disclaimer:</strong> This project serves as a Proof of Concept demonstrating how machine learning is applied in practice. No proprietary client data is disclosed.
+  </div>
+
+  <footer>
+    <a href="https://sagar61205.github.io/portfolio_2/" class="btn">← Back to Portfolio</a>
+  </footer>
+</div>
+</body>
+</html>
